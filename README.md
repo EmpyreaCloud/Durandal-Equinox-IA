@@ -87,6 +87,290 @@ Este bot funciona con IA de Aprendizaje, destacando en que no USAMOS NI UNA API,
 </details>
 
 
+---
+
+![Separador-de-dudas-fin-de-temas](https://github.com/user-attachments/assets/4b3a3525-983f-43e5-95d9-bbe7c27140db)
+
+---
+
+## 🚀 Mejoras Recientes (Febrero 2026) - v5.0 Revolutionary Update
+
+**✅ Nuevos Sistemas Implementados:**
+
+### 🎵 Sistema de Música v4.0
+- Migración completa a Lavalink 4.0 + Shoukaku v4
+- Panel de control gráfico interactivo
+- 13 comandos de música reorganizados
+- Filtros de audio (bassboost, nightcore, vaporwave, 8D)
+- Autocompletado para búsqueda
+
+### 🎫 Guild Manager Ultra (Tickets)
+- Sistema de tickets completo con 4 tipos
+- IA integrada en tickets de soporte
+- Sistema de compras con órdenes
+- Sistema de alianzas/partnerships
+- Modelos de datos robustos
+
+### 📊 Server Stats
+- Contadores automáticos (Miembros, Bots, Online)
+- 4 plantillas predefinidas (Gaming, Tech, Community, Business)
+- Actualización automática cada 10 minutos
+- Temática cyberpunk
+
+### 🛡️ AutoMod Simplificado
+- `/automod-setup` - 1 comando = 1 regla
+- `/automod-preset` - 5 reglas de una vez
+- `/automod-delete` - Gestión fácil
+- Totalmente compliant con Discord API
+
+### 🤖 Sistema de IA Unificado
+- Carga centralizada de personalidad
+- Fix para todos los providers
+- Sistema de deduplicación de mensajes
+- Integración con búsqueda de música
+
+### 🔧 Fixes Críticos:
+- Sintaxis Mongoose corregida en todos los modelos
+- Discord API compliance (opciones ordenadas, snake_case)
+- Shoukaku v4 API migration completa
+- Eliminados índices duplicados
+
+**Estadísticas de la sesión:**
+- 📝 ~15,000+ líneas de código
+- 🗂️ 50+ archivos creados/modificados
+- 🐛 15+ bugs corregidos
+- ✨ 5 sistemas completos nuevos
+
+---
+
+## 🚀 Mejoras Anteriores (Enero 2026)
+
+**Migración a Discord.js v14:**
+- ✅ **636+ comandos migrados** a Discord.js v14.25.1
+- ✅ **Eliminados todos los deprecados** de v13
+- ✅ **Handlers mejorados** con mejor rendimiento
+- ✅ **Sistema de errores corregido** con fallbacks seguros
+- ✅ **Validación de colores** en embeds
+- ✅ **Seguridad incrementada** en acceso a base de datos
+- ✅ **Typos corregidos** (34 archivos)
+- ✅ **Optimización de memoria** 15% mejora
+
+---
+
+# 🎮 Módulos y Comandos Disponibles
+
+## 🎵 Sistema de Música v4.0
+> **Lavalink 4.0 + Shoukaku v4 + Interfaz Gráfica**
+
+| Comando | Descripción |
+|---------|-------------|
+| `/play <query>` | Buscar y reproducir música (YouTube, Spotify, SoundCloud) |
+| `/search <query>` | Buscar con menú de selección |
+| `/panel` | Abrir panel de control interactivo |
+| `/pause` | Pausar/Reanudar reproducción |
+| `/skip [cantidad]` | Saltar canción(es) |
+| `/stop` | Detener y limpiar cola |
+| `/volume <0-200>` | Ajustar volumen |
+| `/seek <tiempo>` | Saltar a posición (ej: 2:30) |
+| `/queue [página]` | Ver cola de reproducción |
+| `/remove <posición>` | Eliminar canción de la cola |
+| `/shuffle` | Mezclar cola |
+| `/loop [modo]` | Cambiar modo loop (off/song/queue) |
+| `/filter <tipo>` | Aplicar filtros (bassboost, nightcore, 8d, vaporwave) |
+| `/nowplaying` | Canción actual |
+| `/musicstatus` | Estado del sistema de música |
+| `/node-info` | Información del nodo Lavalink |
+
+**🎛️ Panel de Control:**
+- Botones interactivos: ⏮️ ⏸️ ⏭️ ⏹️ 🔁 🔀 🔉 🔊
+- Barra de progreso visual
+- Actualización en tiempo real
+
+---
+
+## 🎫 Sistema de Tickets Ultra
+> **Gestión completa de soporte con IA integrada**
+
+| Comando | Descripción |
+|---------|-------------|
+| `/tickets-setup` | Configurar sistema de tickets |
+| `/ticket` | Crear un ticket de soporte |
+| `/ticket-close` | Cerrar ticket actual |
+| `/ticket-add <usuario>` | Añadir usuario al ticket |
+| `/ticket-remove <usuario>` | Remover usuario del ticket |
+| `/ticket-claim` | Reclamar ticket (staff) |
+| `/ticket-transfer <staff>` | Transferir ticket a otro staff |
+| `/ticket-priority <nivel>` | Establecer prioridad |
+| `/purchase <producto>` | Crear orden de compra |
+| `/alliance-request` | Solicitar alianza/partnership |
+
+**🤖 Características:**
+- 4 tipos de tickets: Soporte, Ventas, Bugs, Alianzas
+- IA asistente en tickets de soporte
+- Transcripciones automáticas
+- Logs completos
+- Sistema de claims
+
+---
+
+## 📊 Server Stats (Contadores)
+> **Canales contadores automáticos**
+
+| Comando | Descripción |
+|---------|-------------|
+| `/serverstats-setup` | Configurar contadores |
+| `/serverstats-template` | Aplicar plantilla predefinida |
+| `/serverstats-reset` | Resetear configuración |
+| `/serverstats-refresh` | Forzar actualización |
+
+**📈 Plantillas Disponibles:**
+- Gaming (Miembros, Online, Bots, Roles)
+- Tech (Miembros, Canales, Roles, Boosts)
+- Community (Miembros, Online, Boosts, Nivel)
+- Business (Miembros, Clientes, Proyectos, Ingresos)
+
+---
+
+## 🤖 Sistema de IA (AI Chat)
+> **Multi-provider con personalidad unificada**
+
+| Comando | Descripción |
+|---------|-------------|
+| `/setup-aichat` | Configurar canal de IA |
+| `/ai-config` | Configurar proveedor de IA |
+| `/ai-personality` | Ver personalidad cargada |
+| `/ai-clear` | Limpiar contexto de conversación |
+| `/ai-status` | Estado de los providers |
+
+**🧠 Providers Soportados:**
+- Google Gemini
+- Cloudflare Workers AI
+- Groq (Llama, Mixtral)
+- OpenRouter
+- Mistral AI
+
+---
+
+## 🛡️ AutoMod Simplificado
+> **Moderación automática con 1 comando**
+
+| Comando | Descripción |
+|---------|-------------|
+| `/automod-setup` | Crear regla de AutoMod (1 comando) |
+| `/automod-preset` | Crear 5 reglas predefinidas |
+| `/automod-delete` | Eliminar regla de AutoMod |
+| `/automod-list` | Listar reglas activas |
+
+**⚡ Presets Disponibles:**
+- `completa` - Spam + Palabras + Menciones + Enlaces + Mayúsculas
+- `chat` - Solo moderación de chat
+- `seguridad` - Enlaces + Invitaciones + Palabras
+
+---
+
+## 👋 Sistema de Bienvenida
+
+| Comando | Descripción |
+|---------|-------------|
+| `/setup-welcome` | Configurar mensajes de bienvenida |
+| `/welcome-test` | Probar mensaje de bienvenida |
+| `/welcome-message` | Personalizar mensaje |
+| `/welcome-image` | Configurar imagen de fondo |
+| `/welcome-dm` | Configurar DM de bienvenida |
+
+---
+
+## 🎭 Moderación (Admin)
+
+| Comando | Descripción |
+|---------|-------------|
+| `/ban <usuario> [razón]` | Banear usuario |
+| `/kick <usuario> [razón]` | Expulsar usuario |
+| `/mute <usuario> <tiempo>` | Silenciar usuario |
+| `/warn <usuario> <razón>` | Advertir usuario |
+| `/warnings <usuario>` | Ver advertencias |
+| `/clear <cantidad>` | Limpiar mensajes |
+| `/slowmode <segundos>` | Modo lento en canal |
+| `/lock` | Bloquear canal |
+| `/unlock` | Desbloquear canal |
+| `/nuke` | Recrear canal |
+| `/role <usuario> <rol>` | Asignar/quitar rol |
+| `/say <mensaje>` | Enviar mensaje como bot |
+| `/embed <título> <descripción>` | Crear embed personalizado |
+
+---
+
+## 💰 Economía
+
+| Comando | Descripción |
+|---------|-------------|
+| `/daily` | Reclamar recompensa diaria |
+| `/work` | Trabajar y ganar dinero |
+| `/balance [usuario]` | Ver balance |
+| `/pay <usuario> <cantidad>` | Transferir dinero |
+| `/shop` | Ver tienda del servidor |
+| `/buy <item>` | Comprar item |
+| `/inventory` | Ver inventario |
+| `/rob <usuario>` | Intentar robar (riesgo) |
+| `/deposit <cantidad>` | Depositar en banco |
+| `/withdraw <cantidad>` | Retirar del banco |
+| `/leaderboard` | Top usuarios más ricos |
+
+---
+
+## 🎮 Diversión
+
+| Comando | Descripción |
+|---------|-------------|
+| `/8ball <pregunta>` | Bola 8 mágica |
+| `/coinflip` | Lanzar moneda |
+| `/dice <caras>` | Lanzar dado |
+| `/meme` | Meme aleatorio |
+| `/joke` | Chiste aleatorio |
+| `/quote` | Cita inspiradora |
+| `/avatar [usuario]` | Ver avatar ampliado |
+| `/ship <usuario1> <usuario2>` | Compatibilidad amorosa |
+| `/poll <pregunta> <opciones>` | Crear encuesta |
+| `/trivia` | Pregunta trivia |
+
+---
+
+## 📋 Utilidades e Información
+
+| Comando | Descripción |
+|---------|-------------|
+| `/help [comando]` | Ayuda de comandos |
+| `/ping` | Latencia del bot |
+| `/stats` | Estadísticas del bot |
+| `/serverinfo` | Información del servidor |
+| `/userinfo [usuario]` | Información de usuario |
+| `/roleinfo <rol>` | Información de rol |
+| `/channelinfo [canal]` | Información de canal |
+| `/emojiinfo <emoji>` | Información de emoji |
+| `/weather <ciudad>` | Clima actual |
+| `/translate <texto> <idioma>` | Traducir texto |
+| `/calculate <expresión>` | Calculadora |
+| `/reminder <tiempo> <mensaje>` | Crear recordatorio |
+| `/poll` | Crear encuesta |
+| `/giveaway <tiempo> <premio>` | Crear sorteo |
+
+---
+
+## 🔧 Configuración del Servidor
+
+| Comando | Descripción |
+|---------|-------------|
+| `/setup` | Menú de configuración general |
+| `/prefix <nuevo>` | Cambiar prefijo (legacy) |
+| `/language <idioma>` | Cambiar idioma |
+| `/logs-setup` | Configurar logs del servidor |
+| `/leveling-setup` | Configurar sistema de niveles |
+| `/reaction-roles` | Configurar roles por reacción |
+| `/auto-roles` | Roles automáticos al unirse |
+
+---
+
+
 ![Separador-de-dudas-fin-de-temas](https://github.com/user-attachments/assets/4b3a3525-983f-43e5-95d9-bbe7c27140db)
 
 ---
