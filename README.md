@@ -1,17 +1,13 @@
 <p align="center">
   
-# Durandal Equinox Modules 🤖
+# Durandal Equinox IA 🤖
 
 
 
-**Una conciencia digital evolucionada y personalizable**
+**Una conciencia digital evolucionada y adaptativa para cada usuario**
 
 
-![Separador-de-dudas-fin-de-temas](https://github.com/user-attachments/assets/4b3a3525-983f-43e5-95d9-bbe7c27140db)
-
-
-
-![Durandal_Banner_Animated](https://github.com/user-attachments/assets/c26bb51f-afa5-402a-92ee-447b7995a18b)
+<img width="1344" height="768" alt="Use AI Image May 15, 2026, 17_18_24" src="https://github.com/user-attachments/assets/36516c05-d1ec-4c33-b1fb-2ddd7ab80fed" />
 
 
 <div align="center">
@@ -30,8 +26,6 @@
 <div align="center">
   
 <a href="https://discord.gg/Ax2fZXD7uG"><img src="https://discord.com/api/guilds/920769901680009267/widget.png?style=banner2"></a>
-
-![Separador-de-dudas-fin-de-temas](https://github.com/user-attachments/assets/4b3a3525-983f-43e5-95d9-bbe7c27140db)
 
 </div>
 
